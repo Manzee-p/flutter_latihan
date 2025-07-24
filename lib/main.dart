@@ -1,3 +1,4 @@
+import 'package:belajar_flutter/belajar_form/form_output_screen.dart';
 import 'package:belajar_flutter/container/dua.dart';
 import 'package:belajar_flutter/container/satu.dart';
 import 'package:belajar_flutter/container/tiga.dart';
@@ -23,7 +24,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ListUserPage(),
+      home: BelajarForm(),
     );
   }
 }
